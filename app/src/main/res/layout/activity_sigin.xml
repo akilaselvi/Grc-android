@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="freshgrc.android.com.auditgrc.SiginActivity"
+    android:background="@color/colorPrimarys"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="0.1"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/linear_logo">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/newlogo"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear_editText_one"
+        android:layout_weight="0.10"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_input_layout"
+            android:orientation="vertical"
+            android:hint="USER NAME"
+            android:textColorHint="@color/white">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/edit_userName"
+            android:backgroundTint="@color/white"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear_editText_two"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_weight="0.10"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/psw_input_layout"
+            android:orientation="vertical"
+            android:hint="PASSWORD"
+            android:textColorHint="@color/white">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/edit_userPasw"
+            android:backgroundTint="@color/white"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear_editText_thee"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:weightSum="1"
+        android:layout_weight="0.1"
+        android:gravity="bottom">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:id="@+id/button_sigin"
+            android:text="SIGN IN"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linear_editText_four"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:weightSum="1"
+        android:layout_weight="0.1"
+        android:gravity="bottom">
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_signup"
+            android:layout_weight="0.62"
+            android:text="Create New SIGNUP?"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_forgetpsw"
+            android:layout_weight="0.62"
+            android:text="Forget Password"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"
+            tools:targetApi="jelly_bean" />
+        </LinearLayout>
+
+</LinearLayout>

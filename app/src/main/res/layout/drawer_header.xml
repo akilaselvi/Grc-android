@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="178dp"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:background="@color/gray"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:src="@drawable/newlogo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        app:civ_border_color="@color/gray"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/users_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:text="@string/admin_name"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/users_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/users_name"
+        android:textColor="@color/black"
+        android:text="@string/admin_mail"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+</RelativeLayout>

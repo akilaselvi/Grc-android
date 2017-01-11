@@ -1,0 +1,35 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/myCoordinatorLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <ExpandableListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/item_name">
+                </ExpandableListView>
+        </LinearLayout>
+
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:onClick="onClick"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:elevation="1dp"
+            android:src="@android:drawable/ic_input_add"
+            android:tint="@color/white"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

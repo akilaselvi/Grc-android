@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AuditGrc</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="configure">CONFIGURE</string>
+    <string name="audit">AUDIT</string>
+    <string name="risk">RISK</string>
+    <string name="settings">SETTINGS</string>
+    <string name="logout">LOG OUT</string>
+    <string name="admin_name"></string>
+    <string name="admin_mail"></string>
+    <string name="menu_delete">Delete</string>
+
+</resources>

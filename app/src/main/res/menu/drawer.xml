@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/menuGroup">
+    <item android:title="@string/dashboard"
+        android:icon="@drawable/icon_dashboard"
+        android:id="@+id/nav_item_dashboard" />
+
+    <item android:title="@string/configure"
+        android:icon="@drawable/icon_overview"
+        android:id="@+id/nav_item_config" />
+
+    <item android:title="@string/audit"
+        android:icon="@drawable/icon_audit"
+        android:id="@+id/nav_item_audit" />
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/my_group">
+        <item
+            android:icon="@drawable/icon_settings"
+            android:title="@string/settings" />
+        <item
+            android:icon="@drawable/icon_logout"
+            android:title="@string/logout"
+            android:id="@+id/nav_item_logout"/>
+    </group>
+   </menu>
